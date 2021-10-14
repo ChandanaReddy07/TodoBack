@@ -30,8 +30,8 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors());
 //routes
-app.use("/api",userRoutes);
-app.use("/api",todoRoutes);
+app.use("/",userRoutes);
+app.use("/",todoRoutes);
 
 
 app.listen(port,()=>console.log(`haloo running in port${port}..`))
