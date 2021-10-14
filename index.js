@@ -30,6 +30,9 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors());
 //routes
+app.get("/",(req,res)=>{
+    res.send("hello ")
+})
 app.use("/",userRoutes);
 app.use("/",todoRoutes);
 
