@@ -20,8 +20,7 @@ mongoose.connect(process.env.DATABASE,{
     console.log("DB NOT CONNECTED")
 );
 
-
-const port=8080
+const PORT = process.env.PORT || 8080;
 
 //middlewares
 app.use(bodyParser.json());
@@ -35,4 +34,4 @@ app.use("/",userRoutes);
 app.use("/",todoRoutes);
 
 
-app.listen(port,()=>console.log(`haloo running in port${port}..`))
+app.listen(PORT,()=>console.log(`haloo running in port${PORT}..`))
