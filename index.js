@@ -8,8 +8,6 @@ var cors = require('cors')
 const todoRoutes=require("./routes/todo")
 const userRoutes=require("./routes/userRoutes")
 
- 
-
 
 //db connection
 mongoose.connect(process.env.DATABASE,{
@@ -23,7 +21,7 @@ mongoose.connect(process.env.DATABASE,{
 );
 
 
-const port=8000
+const port=8080
 
 //middlewares
 app.use(bodyParser.json());
