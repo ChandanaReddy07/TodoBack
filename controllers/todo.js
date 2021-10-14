@@ -1,8 +1,5 @@
 const  Todo=require("../models/todo")
 
-
-
-
 exports.getTodoById=(req,res,next,id)=>{
    // console.log("im in id")
 
