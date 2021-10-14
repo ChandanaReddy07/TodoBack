@@ -5,7 +5,7 @@
 -   A todo endpoint which can add, delete, update and list all todos for a spfc. user
 -   Todo endpoint will be only for signed in users
 <br>
-<br>
+
 <h2>Tech-stack</h2>
 
 -   Nodejs
@@ -13,7 +13,7 @@
 -   MongoDB
 
 <br>
-<br>
+
 <h2>Endpoints</h2>
 
 <table>
