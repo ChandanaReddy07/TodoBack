@@ -1,10 +1,14 @@
-<h1 align="center">Todo app</h1>
+<h1 align="center">Todo app✏️</h1>
  A simple to-do list app's backend with following features-
 
 -   User authentication using JWT and cookies
 -   A todo endpoint which can add, delete, update and list all todos for a spfc. user
 -   Todo endpoint will be only for signed in users
 <br>
+
+
+[👉 Postman Link](https://www.getpostman.com/collections/905cfb6344b05509378a)
+
 
 <h2>Tech-stack</h2>
 
@@ -91,6 +95,3 @@
 <br>
 
 <h1>Postman Link 👇</h1>
-
-[Postman Link](https://www.getpostman.com/collections/905cfb6344b05509378a)
-
