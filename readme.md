@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Todo app</h1>
+<h1 align="center">Todo app</h1>
  A simple to-do list app's backend with following features-
 
 -   User authentication using JWT and cookies
@@ -15,7 +15,7 @@
 
 <h2>Endpoints</h2>
 
-<table>
+<table align="center">
 
 <tr>
 
@@ -61,13 +61,7 @@
 
 </tr>
 
-<tr>
 
-<td>(GET) /todo/:todoId/:userId</td>
-
-<td>To get a specific Todo item</td>
-
-</tr>
 
 <tr>
 
@@ -94,7 +88,7 @@
 </tr>
 
 </table>
-
+<br>
 
 <h1>Postman Link 👇</h1>
 
