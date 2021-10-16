@@ -1,4 +1,4 @@
-# Todo app
+<h1 style="text-align: center;">Todo app</h1>
  A simple to-do list app's backend with following features-
 
 -   User authentication using JWT and cookies
@@ -95,5 +95,8 @@
 
 </table>
 
-[POstman Link](https://www.getpostman.com/collections/905cfb6344b05509378a)
+
+<h1>Postman Link 👇</h1>
+
+[Postman Link](https://www.getpostman.com/collections/905cfb6344b05509378a)
 
