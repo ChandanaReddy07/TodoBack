@@ -8,9 +8,7 @@
 
 <h2>Tech-stack</h2>
 
--   Nodejs
--   Expressjs
--   MongoDB
+-   Nodejs ,  Expressjs , MongoDB
 
 <br>
 
