@@ -28,7 +28,7 @@ app.use(cookieParser());
 app.use(cors());
 //routes
 app.get("/",(req,res)=>{
-    res.send("hello ")
+    res.send('<h1>hello there!! Postman link for the backend - https://www.getpostman.com/collections/905cfb6344b05509378a</h1>')
 })
 app.use("/",userRoutes);
 app.use("/",todoRoutes);
