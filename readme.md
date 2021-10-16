@@ -95,5 +95,5 @@
 
 </table>
 
-![POstman Link](https://www.getpostman.com/collections/905cfb6344b05509378a)
+[POstman Link](https://www.getpostman.com/collections/905cfb6344b05509378a)
 
