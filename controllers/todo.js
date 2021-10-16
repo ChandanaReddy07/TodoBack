@@ -12,7 +12,6 @@ exports.getTodoById=(req,res,next,id)=>{
         req.todo=todo;
         next();
     })
-
 }
 
 exports.getTodo=(req,res)=>{
@@ -26,7 +25,6 @@ exports.createTodo=(req,res)=>{
   
 const title=req.body.title;
 const userId=req.profile._id;
-
 
   const todo= new Todo({title:title,userId:userId});
 

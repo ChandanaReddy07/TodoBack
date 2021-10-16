@@ -61,7 +61,7 @@
 
 <td>(POST) /todo/create/:userId</td>
 
-<td>For createing a new Todo item</td>
+<td>For creating a new Todo item</td>
 
 </tr>
 
